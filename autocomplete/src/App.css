@@ -1,0 +1,24 @@
+.autoPos{
+  position: relative;
+}
+
+.datalist{
+  position: absolute;
+  width: 100%;
+  border: 1px solid #bbb;
+  padding: 5px;
+}
+
+.datalist > ul{
+  margin: 0;
+  padding: 0;
+
+}
+.datalist > ul > li{
+  list-style: none;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+.datalist > ul > li:hover {
+  color: blue;
+}
